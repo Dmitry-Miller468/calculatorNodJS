@@ -33,7 +33,7 @@ const calc = {
    _opHandler(evt) {
       if (evt.target.name === 'operator') {
          this.stage = 'B';
-         // this.screen.value = '';
+         this.screen.value = '';
          this.operation = evt.target.dataset.value;
       }
       if (evt.target.name === 'result') {
@@ -47,12 +47,6 @@ const calc = {
          this.numberA = 0;
          this.numberB = 0;
       }
-
-      if (evt.target.name === 'clearB') {
-         this.screen.value = 0;
-         this.numberB = 0;
-      }
-
       if (evt.target.name === 'X2') {
          this.screen.value = this.numberA * this.numberA
          this.numberA = 0;
