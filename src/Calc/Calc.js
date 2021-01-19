@@ -14,9 +14,7 @@ function Calc() {
          </div>
          <div class="wrapper">
             <div class="oneSide">
-
                <div id="ops2" class="opSymbol">
-
                   <button name="operator" data-value="Prc">%</button>
                   <button name="clearB">CE</button>
                   <button name="clear">C</button>

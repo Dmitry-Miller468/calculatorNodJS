@@ -4,7 +4,7 @@ import Calc from './Calc/Calc';
 function App() {
    return (
       <div>
-         <Calc />
+         <Calc />  
       </div>
    );
 }
