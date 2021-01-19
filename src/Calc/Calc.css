@@ -1,0 +1,66 @@
+.wrapperCenter {
+   margin: 100px;
+   width: 300px;
+   box-shadow: 7px 7px 12px 0px rgba(0, 0, 0, 0.62);
+ }
+ 
+ .wrapper {
+   display: flex;
+ }
+ 
+ .opSymbol {
+   width: 225px;
+   display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ button {
+   width: 75px;
+   height: 55px;
+   background: #d0c9c969; /* #dcdcdc */
+   border: 0.5px solid silver;
+   outline: none;
+ }
+ 
+ input {
+   width: 292px;
+   height: 120px;
+   font-size: 30px;
+ }
+ 
+ .numb {
+   width: 225px;
+   display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ .twoSide {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .numb button {
+   background: white;
+ }
+ 
+ button:active {
+   box-shadow: 0px 0px 45px 3px rgba(220, 220, 220, 1) inset;
+   transform: scale(1.1);
+ }
+ 
+ .memory {
+   display: flex;
+ }
+ 
+ .memory button {
+   width: 50px;
+   background: #d8d3da5c;
+   border: none;
+   height: 30px;
+   font-size: 12px;
+ }
+
+ .memory sup {
+   font-size: 8px;
+ }
+ 
